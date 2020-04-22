@@ -9,8 +9,12 @@ namespace RadioStation
 {
     class StationsCollection:IteratorAggregate
     {
-        List<int> _bitrates = new List<int>();
+        static List<int> _bitrates;
         bool _direction = false;
+        public StationsCollection()
+        {
+            _bitrates = new List<int> { 64, 92, 128, 196, 224 };
+        }
         public void ReverseDirection()
         {
             _direction = !_direction;
@@ -18,10 +22,6 @@ namespace RadioStation
         public List<int> GetItems()
         {
             return _bitrates;
-        }
-        public void AddBitrate(int rate)
-        {
-            this._bitrates.Add(rate);
         }
         public override IEnumerator GetEnumerator()
         {

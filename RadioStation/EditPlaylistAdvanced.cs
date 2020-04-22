@@ -15,7 +15,7 @@ namespace RadioStation
         }
         public void AddCompositions(UserPlaylist userPlaylist)
         {
-            _userPlaylist.playlist.AddRange(userPlaylist.playlist);
+            _userPlaylist.Playlist.AddRange(userPlaylist.Playlist);
         }
     }
 }

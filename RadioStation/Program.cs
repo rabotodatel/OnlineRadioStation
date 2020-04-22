@@ -12,11 +12,6 @@ namespace RadioStation
         {
             var bitrates = new StationsCollection();
             //var iterator = new StationIterator(frequencies);
-            bitrates.AddBitrate(64);
-            bitrates.AddBitrate(92);
-            bitrates.AddBitrate(128);
-            bitrates.AddBitrate(196);
-            bitrates.AddBitrate(224);
 
             //bitrates.ReverseDirection();
             //foreach(var b in bitrates)
@@ -53,15 +48,19 @@ namespace RadioStation
             IEditPlaylist editLargePlaylist1 = new AdvancedToEditPlaylist(advanced, smallPlaylist);
             editLargePlaylist1.AddComposition();
             
-            foreach (Composition c in smallPlaylist.playlist)
+            foreach (Composition c in smallPlaylist.Playlist)
             {
                 Console.WriteLine(c.Name);
             }
             Console.WriteLine("");
-            foreach (Composition c in largePlaylist.playlist)
+            foreach (Composition c in largePlaylist.Playlist)
             {
                 Console.WriteLine(c.Name);
             }
+            Console.WriteLine("");
+
+            Facade facade = new Facade(largePlaylist, 92);
+            facade.Play();
 
             Console.ReadKey();
         }

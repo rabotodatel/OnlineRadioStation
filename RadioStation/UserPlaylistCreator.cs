@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace RadioStation
 {
-    class EditPlaylistCreator : ICreator
+    class UserPlaylistCreator:ICreator
     {
-        public IEditPlaylist GetEditPlaylist()
+        public IPlaylist GetUserPlaylist()
         {
-            return new EditPlaylist();
+            return new UserPlaylist();
         }
     }
 }

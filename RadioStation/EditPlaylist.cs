@@ -18,15 +18,15 @@ namespace RadioStation
         }
         public void AddComposition()
         {
-            _userPlaylist?.playlist?.Add(_composition);
+            _userPlaylist?.Playlist?.Add(_composition);
         }
         public void RemoveComposition()
         {
-            foreach (Composition c in _userPlaylist.playlist)
+            foreach (Composition c in _userPlaylist.Playlist)
             {
                 if(c == _composition)
                 {
-                    _userPlaylist?.playlist?.Remove(_composition);
+                    _userPlaylist?.Playlist?.Remove(_composition);
                     return;
                 }
             }

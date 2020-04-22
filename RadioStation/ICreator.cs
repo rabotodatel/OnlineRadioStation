@@ -8,6 +8,6 @@ namespace RadioStation
 {
     interface ICreator
     {
-        IEditPlaylist GetEditPlaylist();
+        IPlaylist GetUserPlaylist();
     }
 }

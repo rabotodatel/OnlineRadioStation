@@ -47,10 +47,11 @@
     <Compile Include="CompositionsCollection.cs" />
     <Compile Include="EditPlaylist.cs" />
     <Compile Include="EditPlaylistAdvanced.cs" />
-    <Compile Include="EditPlaylistCreator.cs" />
+    <Compile Include="Facade.cs" />
     <Compile Include="ICreator.cs" />
     <Compile Include="IEditPlaylist.cs" />
     <Compile Include="IEditPlaylistAdvanced.cs" />
+    <Compile Include="IPlaylist.cs" />
     <Compile Include="Iterator.cs" />
     <Compile Include="IteratorAggregate.cs" />
     <Compile Include="Program.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="StationsCollection.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserPlaylist.cs" />
+    <Compile Include="UserPlaylistCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace RadioStation
 {
-    class UserPlaylist : IPlaylist
+    interface IPlaylist
     {
-        public List<Composition> Playlist { get; } = new List<Composition>();
+        List<Composition> Playlist { get; }
     }
 }
