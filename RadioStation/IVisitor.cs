@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace RadioStation
 {
-    interface IPlaylist
+    interface IVisitor
     {
-        List<Composition> Playlist { get; }
-        void Accept(IVisitor visitor, int bitrate);
+        void Play(IPlaylist playlist, int bitrate);
     }
 }

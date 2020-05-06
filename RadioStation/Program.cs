@@ -47,20 +47,25 @@ namespace RadioStation
             IEditPlaylistAdvanced advanced = new EditPlaylistAdvanced(largePlaylist);
             IEditPlaylist editLargePlaylist1 = new AdvancedToEditPlaylist(advanced, smallPlaylist);
             editLargePlaylist1.AddComposition();
-            
-            foreach (Composition c in smallPlaylist.Playlist)
-            {
-                Console.WriteLine(c.Name);
-            }
-            Console.WriteLine("");
-            foreach (Composition c in largePlaylist.Playlist)
-            {
-                Console.WriteLine(c.Name);
-            }
-            Console.WriteLine("");
 
-            Facade facade = new Facade(largePlaylist, 92);
-            facade.Play();
+            //foreach (Composition c in smallPlaylist.Playlist)
+            //{
+            //    Console.WriteLine(c.Name);
+            //}
+            //Console.WriteLine("");
+            //foreach (Composition c in largePlaylist.Playlist)
+            //{
+            //    Console.WriteLine(c.Name);
+            //}
+            //Console.WriteLine("");
+
+            //Facade facade = new Facade(largePlaylist, 92);
+            //facade.Play();
+
+            var structure = new ObjectStructure();
+            structure.Add(smallPlaylist);
+            structure.Add(largePlaylist);
+            structure.Accept(new Player(), largePlaylist, 92);
 
             Console.ReadKey();
         }
