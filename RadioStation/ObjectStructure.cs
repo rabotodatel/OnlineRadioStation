@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RadioStation
+namespace RadioStationMiddleware
 {
     class ObjectStructure
     {
@@ -26,7 +26,7 @@ namespace RadioStation
         }
         public void Accept(IVisitor visitor, IPlaylist playlist, int bitrate)
         {
-            playlist.Accept(visitor, bitrate);
+            //playlist.Accept(visitor, bitrate);
         }
     }
 }

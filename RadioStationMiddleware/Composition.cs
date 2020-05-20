@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RadioStation
+namespace RadioStationMiddleware
 {
-    class Composition
+    public class Composition
     {
         public int ID { get; set; }
         public string Name { get; set; }

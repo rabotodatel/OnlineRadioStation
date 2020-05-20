@@ -5,3 +5,8 @@ D:\Projects\RadioStation\RadioStation\obj\Debug\RadioStation.csprojAssemblyRefer
 D:\Projects\RadioStation\RadioStation\obj\Debug\RadioStation.csproj.CoreCompileInputs.cache
 D:\Projects\RadioStation\RadioStation\obj\Debug\RadioStation.exe
 D:\Projects\RadioStation\RadioStation\obj\Debug\RadioStation.pdb
+D:\Projects\RadioStation\RadioStation\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\RadioStation\RadioStation\bin\Debug\RadioStationMiddleware.dll
+D:\Projects\RadioStation\RadioStation\bin\Debug\RadioStationMiddleware.pdb
+D:\Projects\RadioStation\RadioStation\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\RadioStation\RadioStation\obj\Debug\RadioStation.csproj.CopyComplete

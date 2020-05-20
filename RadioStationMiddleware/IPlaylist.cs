@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RadioStation
+namespace RadioStationMiddleware
 {
-    interface IPlaylist
+    public interface IPlaylist
     {
         List<Composition> Playlist { get; }
-        void Accept(IVisitor visitor, int bitrate);
+        //void Accept(IVisitor visitor, int bitrate);
     }
 }

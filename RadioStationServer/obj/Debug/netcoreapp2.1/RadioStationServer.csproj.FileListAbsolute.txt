@@ -1,0 +1,17 @@
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationServer.deps.json
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationServer.runtimeconfig.json
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationServer.runtimeconfig.dev.json
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationServer.dll
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.csprojAssemblyReference.cache
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.csproj.CoreCompileInputs.cache
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.RazorAssemblyInfo.cache
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.RazorAssemblyInfo.cs
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.AssemblyInfoInputs.cache
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.AssemblyInfo.cs
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.RazorTargetAssemblyInfo.cache
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationServer.pdb
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.dll
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.pdb
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationMiddleware.dll
+D:\Projects\RadioStation\RadioStationServer\bin\Debug\netcoreapp2.1\RadioStationMiddleware.pdb
+D:\Projects\RadioStation\RadioStationServer\obj\Debug\netcoreapp2.1\RadioStationServer.csproj.CopyComplete

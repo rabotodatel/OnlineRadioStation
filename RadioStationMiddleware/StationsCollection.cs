@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RadioStation
+namespace RadioStationMiddleware
 {
-    class StationsCollection:IteratorAggregate
+    public class StationsCollection
     {
         static List<int> _bitrates;
         bool _direction = false;
@@ -23,9 +23,9 @@ namespace RadioStation
         {
             return _bitrates;
         }
-        public override IEnumerator GetEnumerator()
-        {
-            return new StationIterator(this, _direction);
-        }
+        //public override IEnumerator GetEnumerator()
+        //{
+        //    return new StationIterator(this, _direction);
+        //}
     }
 }

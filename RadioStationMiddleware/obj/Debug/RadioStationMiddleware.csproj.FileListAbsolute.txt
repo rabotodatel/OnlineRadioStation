@@ -1,0 +1,6 @@
+D:\Projects\RadioStation\RadioStationMiddleware\bin\Debug\RadioStationMiddleware.dll
+D:\Projects\RadioStation\RadioStationMiddleware\bin\Debug\RadioStationMiddleware.pdb
+D:\Projects\RadioStation\RadioStationMiddleware\obj\Debug\RadioStationMiddleware.csprojAssemblyReference.cache
+D:\Projects\RadioStation\RadioStationMiddleware\obj\Debug\RadioStationMiddleware.csproj.CoreCompileInputs.cache
+D:\Projects\RadioStation\RadioStationMiddleware\obj\Debug\RadioStationMiddleware.dll
+D:\Projects\RadioStation\RadioStationMiddleware\obj\Debug\RadioStationMiddleware.pdb

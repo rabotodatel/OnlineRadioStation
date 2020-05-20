@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RadioStation
+namespace RadioStationMiddleware
 {
-    class UserPlaylist : IPlaylist
+    public class UserPlaylist : IPlaylist
     {
         public List<Composition> Playlist { get; } = new List<Composition>();
-        public void Accept(IVisitor visitor, int bitrate)
-        {
-            visitor.Play(this, bitrate);
-        }
+        //public void Accept(IVisitor visitor, int bitrate)
+        //{
+        //    visitor.Play(this, bitrate);
+        //}
     }
 }
